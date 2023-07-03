@@ -1,0 +1,24 @@
+[
+  {
+    "product_id": "1",
+    "offer": "6 % Off",
+    "name": "Dewars 15 YO 2X100CL",
+    "unit": "1 Ltr",
+    "image_url":
+      "https://delhidutyfree.co.in/media/catalog/product/cache/d58eb6b6cd0b875591a577c8f7a3618e/_/2/_2002258-ab_voanouw6nilpbcyz.jpg",
+    "price": "6990",
+    "mrp": "9580",
+    "discount": true
+  },
+  {
+    "product_id": "2",
+    "offer": "2 % Off",
+    "name": "Chivas Regal 18YO Ultimate Cask Collection 3",
+    "unit": "unit",
+    "image_url":
+      "https://delhidutyfree.co.in/media/catalog/product/cache/d58eb6b6cd0b875591a577c8f7a3618e/c/h/chivas_regal_ultimate_cask_collection.jpg",
+    "price": "12590",
+    "mrp": "12590",
+    "discount": false
+  }
+]
