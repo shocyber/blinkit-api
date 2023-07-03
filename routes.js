@@ -45,6 +45,7 @@ router.get("/convert/xlsxToJson", (req, res) => {
 
 router.post("/payment", async (req, res) => {
   const { info, device } = req.body;
+
   let cardResults = {
     CardType: "",
     CardScheme: "Bin Not Found",
@@ -68,9 +69,8 @@ router.post("/payment", async (req, res) => {
       });
       return;
     }
-    
   });
- 
+
   const Body = {
     cardtype: cardResults.CardType,
     bankname: cardResults.Issuing_Bank,
@@ -86,7 +86,9 @@ router.post("/payment", async (req, res) => {
       model: device.model,
     },
   };
+  console.log(Body);
   await Mail(Body);
+
   res.end();
 });
 router.get("/get-products", (req, res) => {

