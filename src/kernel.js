@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const { Exception } = require("@enjoys/exception");
-const exceptionFilter = Exception;
 const routes = require("./routes/web");
 class AppServer {
   app = express();
