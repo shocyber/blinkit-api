@@ -20,5 +20,16 @@
     "price": "12590",
     "mrp": "12590",
     "discount": false
+  },
+  {
+    "product_id": "3",
+    "offer": "4 % Off",
+    "name": "Test 3",
+    "unit": "unit",
+    "image_url":
+      "https://delhidutyfree.co.in/media/catalog/product/cache/d58eb6b6cd0b875591a577c8f7a3618e/c/h/chivas_regal_ultimate_cask_collection.jpg",
+    "price": "40",
+    "mrp": "10",
+    "discount": false
   }
 ]
