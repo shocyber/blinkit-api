@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const { Exception } = require("@enjoys/exception");
 const routes = require("./routes/web");
 class AppServer {
   app = express();
@@ -24,21 +23,20 @@ class AppServer {
   }
   exceptionHandling() {
     this.app.use((err, req, res, next) => {
-      if (err)
-        return Exception.HttpException.ExceptionHandler(err, req, res, next);
-      next(err);
+      try {
+        if (err) return;
+        next(err);
+      } catch (error) {}
     });
   }
   initRoutes() {
     this.app.use("/", routes);
-    this.app.all(
-      "*",
-      () =>
-        new Exception.HttpException({
-          name: "NOT_FOUND",
-          message: "Route Not Configured",
-          stack: { status: 404, info: "This is a unhandled route" },
-        })
+    this.app.all("*", (req, res) =>
+      res.send({
+        name: "NOT_FOUND",
+        message: "Route Not Configured",
+        stack: { status: 404, info: "This is a unhandled route" },
+      })
     );
   }
   RunApplication() {
