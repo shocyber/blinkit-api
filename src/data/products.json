@@ -1,13 +1,13 @@
 [
   {
     "product_id": "1",
-    "offer": "6 % Off",
-    "name": "Dewars 15 YO 2X100CL",
-    "unit": "1 Ltr",
+    "offer": "96 % Off",
+    "name": "Aashirvaad Multigrain Atta",
+    "unit": "10 KG",
     "image_url":
-      "https://delhidutyfree.co.in/media/catalog/product/cache/d58eb6b6cd0b875591a577c8f7a3618e/_/2/_2002258-ab_voanouw6nilpbcyz.jpg",
-    "price": "6990",
-    "mrp": "9580",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/app/images/products/sliding_image/108301a.jpg?ts=1688469107",
+    "price": "49",
+    "mrp": "680",
     "discount": true
   },
   {
