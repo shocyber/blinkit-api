@@ -19,7 +19,7 @@
       "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/39493a.jpg?ts=1688443212",
     "price": "498",
     "mrp": "49",
-    "discount": false
+    "discount": true
   },
   {
     "product_id": "3",
@@ -30,6 +30,6 @@
       "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/full_screen/pro_523514.jpg?ts=1692785357",
     "price": "1",
     "mrp": "299",
-    "discount": false
+    "discount": true
   }
 ]
