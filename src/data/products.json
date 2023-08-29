@@ -3,7 +3,7 @@
     "product_id": "1",
     "offer": "96 % Off",
     "name": "Aashirvaad Multigrain Atta",
-    "unit": "10 KG",
+    "unit": "1 x 10 KG",
     "image_url":
       "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/app/images/products/sliding_image/108301a.jpg?ts=1688469107",
     "price": "49",
@@ -17,8 +17,8 @@
     "unit": "2 x 1KG",
     "image_url":
       "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/39493a.jpg?ts=1688443212",
-    "price": "498",
-    "mrp": "49",
+    "price": "49",
+    "mrp": "498",
     "discount": true
   },
   {
@@ -30,6 +30,83 @@
       "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/full_screen/pro_523514.jpg?ts=1692785357",
     "price": "1",
     "mrp": "299",
+    "discount": true
+  },
+{
+    "product_id": "4",
+    "offer": "90 % Off",
+    "name": "Tata Sampann Masoor Dal",
+    "unit": "2 x 1KG",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/39491a.jpg?ts=1688443212",
+    "price": "498",
+    "mrp": "49",
+    "discount": true
+  },
+{
+    "product_id": "5",
+    "offer": "94 % Off",
+    "name": "Coca-Cola Soft Drink",
+    "unit": "5 x 2 Ltr",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/10557a.jpg?ts=1690813220",
+    "price": "469",
+    "mrp": "49",
+    "discount": true
+  },
+{
+    "product_id": "6",
+    "offer": "98 % Off",
+    "name": "Saffola Gold Refined Blended Cooking Oil (Rice Bran + Corn) - Free 1 l Pouch",
+    "unit": "10 Ltr + 1 Ltr",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/488306a.jpg?ts=1688629998",
+    "price": "49",
+    "mrp": "945",
+    "discount": true
+  },
+{
+    "product_id": "7",
+    "offer": "94 % Off",
+    "name": "Ananda Pure Ghee",
+    "unit": "2 x 900ml",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/503059a.jpg?ts=1690829427",
+    "price": "49",
+    "mrp": "1240",
+    "discount": true
+  },
+{
+    "product_id": "8",
+    "offer": "97 % Off",
+    "name": "Madhur Pure & Hygienic Sulphurless Sugar",
+    "unit": "1 x 10KG",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/11006a.jpg?ts=1688463550",
+    "price": "49",
+    "mrp": "650",
+    "discount": true
+  },
+{
+    "product_id": "9",
+    "offer": "99 % Off",
+    "name": "Dry Fruit Box for Rakhi Gifts",
+    "unit": "1 box",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/529854a.jpg?ts=1692854781",
+    "price": "49",
+    "mrp": "2499",
+    "discount": true
+  },
+{
+    "product_id": "10",
+    "offer": "90 % Off",
+    "name": "Tata Tea Premium Tea",
+    "unit": "1 x 1.5KG",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/426661a.jpg?ts=1688975164",
+    "price": "49",
+    "mrp": "705",
     "discount": true
   }
 ]
