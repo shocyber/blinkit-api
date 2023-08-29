@@ -12,24 +12,24 @@
   },
   {
     "product_id": "2",
-    "offer": "2 % Off",
-    "name": "Chivas Regal 18YO Ultimate Cask Collection 3",
-    "unit": "unit",
+    "offer": "92 % Off",
+    "name": "Tata Sampann Unpolished Arhar Dal/Toor Dal",
+    "unit": "2 x 1KG",
     "image_url":
-      "https://delhidutyfree.co.in/media/catalog/product/cache/d58eb6b6cd0b875591a577c8f7a3618e/c/h/chivas_regal_ultimate_cask_collection.jpg",
-    "price": "12590",
-    "mrp": "12590",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/39493a.jpg?ts=1688443212",
+    "price": "498",
+    "mrp": "49",
     "discount": false
   },
   {
     "product_id": "3",
-    "offer": "4 % Off",
-    "name": "Test 3",
-    "unit": "unit",
+    "offer": "94 % Off",
+    "name": "Studded & Beaded Rakhi",
+    "unit": "1 box",
     "image_url":
-      "https://delhidutyfree.co.in/media/catalog/product/cache/d58eb6b6cd0b875591a577c8f7a3618e/c/h/chivas_regal_ultimate_cask_collection.jpg",
-    "price": "40",
-    "mrp": "10",
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/full_screen/pro_523514.jpg?ts=1692785357",
+    "price": "1",
+    "mrp": "299",
     "discount": false
   }
 ]
