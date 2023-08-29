@@ -108,5 +108,27 @@
     "price": "49",
     "mrp": "705",
     "discount": true
+  },
+{
+    "product_id": "11",
+    "offer": "90 % Off",
+    "name": "Cadbury Celebrations Assorted Chocolate Gift Pack",
+    "unit": "2 box",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/full_screen/pro_404026.jpg?ts=1684833879",
+    "price": "29",
+    "mrp": "499",
+    "discount": true
+  },
+{
+    "product_id": "12",
+    "offer": "99 % Off",
+    "name": "Tide Double Power Jasmine & Rose Detergent Powder - Get 1 kg Free",
+    "unit": "2 x 5KG",
+    "image_url":
+      "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/118900a.jpg?ts=1687324804",
+    "price": "49",
+    "mrp": "1499",
+    "discount": true
   }
 ]
